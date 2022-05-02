@@ -8,7 +8,11 @@
         Title="MainWindow" Height="490.909" Width="853.693">
     <Grid>
         <Button Content="Button" HorizontalAlignment="Left" Margin="452,47,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <TextBox HorizontalAlignment="Left" Height="297" Margin="64,79,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="271"/>
+        <TextBox AcceptsReturn="True" AcceptsTab="True" x:Name="txtBox" Background="AntiqueWhite" Margin="23,47,449,183" >
+            select aaa,bbb from ccc
+        </TextBox>
+        <TextBox x:Name="txtReg" HorizontalAlignment="Left" Height="23" Margin="452,86,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="225"/>
+        <TextBox x:Name="txtResult" HorizontalAlignment="Left" Height="26" Margin="452,126,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="225"/>
     </Grid>
 
 
